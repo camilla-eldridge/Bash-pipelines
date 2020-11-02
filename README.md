@@ -1,4 +1,4 @@
-Pipelines developed to predict genes from draft genomes
+Pipelines developed to predict genes from draft genomes <br /> <br /> <br /> 
 
 
 
@@ -9,18 +9,18 @@ using the protein2genome model in exonerate. All predictions are translated usin
 open reading frames identified using longest_orf.py (see Sequence-tools)
 
   
-  Usage: ./coding_exon_prediction.sh  [dir_list.txt]  [protein_query.fasta]  [best_n_hits]  [masked_query(Y/N)]  [trans_table(standard=1)]  [gene_id]
+      Usage: ./coding_exon_prediction.sh  [dir_list.txt]  [protein_query.fasta]  [best_n_hits]  [masked_query(Y/N)]  [trans_table(standard=1)]  [gene_id]
 
 
-
+<br /> <br /> <br /> 
 
 hmm_to_fasta
 
 hmm.sh is a pipeline that builds an hmm profile from a nucleotide or protein query multi-fasta file then searches through a target genome and
-using hmm_to_fasta.py (see Sequence-tools) returns the hit sequence.
+using hmm_to_fasta.py (see Sequence-tools) returns the hit sequence.<br /> <br /> <br /> 
 
 
-  Usage: ./hmm.sh  query.fasta  target.fasta  P/N  id
+      Usage: ./hmm.sh  query.fasta  target.fasta  P/N  id
 
 
 
