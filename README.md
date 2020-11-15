@@ -4,7 +4,7 @@ Pipelines developed to predict genes from draft genomes. <br /> <br /> <br />
 
 
 
-## coding-exon-prediction <br /> <br /> <br /> 
+## coding-exon-prediction
 
 
 When using a reference sequence from a close relative:<br /> <br /> <br /> 
@@ -41,7 +41,7 @@ using `nhmmer_or_hmmsearch_to_fasta.py` (see Sequence-tools) returns the top hit
 
 
 Requires:
-* `HMMER` ( )
+* `HMMER` (tested with v3.1)
 * `nhmmer_or_hmmsearch_to_fasta.py`
 
 
