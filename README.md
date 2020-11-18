@@ -10,7 +10,7 @@ Pipelines developed to predict genes from draft genomes. <br /> <br /> <br />
 When using a reference sequence from a close relative:<br /> <br /> <br /> 
 
 
-`coding_exon_prediction.sh`  will predict coding-exons based on a protein reference using the protein2genome model in `Exonerate`. All predictions are translated using `transeq(EMBOSS)` and the longest open reading frames identified using `longest_orf.py` (see Sequence-tools) <br /> <br /> <br /> 
+`coding_exon_prediction.sh`  will predict coding-exons (and the full orf of the gene) based on a protein reference using the protein2genome model in `Exonerate`. All predictions are translated using `transeq(EMBOSS)` and the longest open reading frames identified using `longest_orf.py` (see Sequence-tools) <br /> <br /> <br /> 
 
   
       Usage: ./coding_exon_prediction.sh  [dir_list.txt]  [protein_query.fasta]  [best_n_hits]  [masked_query(Y/N)]  [trans_table(standard=1)]  [gene_id]
